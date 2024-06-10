@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> RadTap Register Account</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+
+    <img class="align-text-center" src="https://www.redtape.com/cdn/shop/files/logo.png?v=1704870276&width=270" alt="">
+    <div class="max-w-4xl mx-auto py-10">
+        <div class="bg-white p-8 rounded shadow-md">
+            <h1 class="text-3xl font-bold mb-6">Register Account</h1>
+            <p class="mb-6 text-gray-600">If you already have an account with us, please login at the login page.</p>
+
+            <form>
+                <h2 class="text-2xl font-semibold mb-4">Your Personal Details</h2>
+                <hr>
+                <div class="grid grid-cols-2 gap-4 mb-6">
+                    <div>
+                        <label for="first-name" class="block text-sm font-medium text-gray-700">*First Name</label>
+                        <input id="first-name" name="first-name" type="text" placeholder="First name"
+                            class="mt-1 p-2 w-full border rounded-md">
+                    </div>
+                    <div>
+                        <label for="last-name" class="block text-sm font-medium text-gray-700">*Last Name</label>
+                        <input id="last-name" name="last-name" type="text" placeholder="Last name"
+                            class="mt-1 p-2 w-full border rounded-md">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-700">*Email</label>
+                        <input id="email" name="email" type="email" placeholder="Email"
+                            class="mt-1 p-2 w-full border rounded-md">
+                    </div>
+                    <div>
+                        <label for="telephone" class="block text-sm font-medium text-gray-700">*Telephone</label>
+                        <input id="telephone" name="telephone" type="tel" placeholder="Telephone"
+                            class="mt-1 p-2 w-full border rounded-md">
+                    </div>
+                </div>
+
+                <h2 class="text-2xl font-semibold mb-4">Your Password</h2>
+                <hr>
+                <div class="grid grid-cols-2 gap-4 mb-6">
+                    <div>
+                        <label for="password" class="block text-sm font-medium text-gray-700">*Password</label>
+                        <input id="password" name="password" type="password" placeholder="Password"
+                            class="mt-1 p-2 w-full border rounded-md">
+                    </div>
+                    <div>
+                        <label for="password-confirm" class="block text-sm font-medium text-gray-700">*Password
+                            Confirm</label>
+                        <input id="confirm-password" name="confirm-password" type="password"
+                            placeholder="Password Confirm" class="mt-1 p-2 w-full border rounded-md">
+                    </div>
+                </div>
+
+                <h2 class="text-2xl font-semibold mb-4">Newsletter</h2>
+                <hr>
+                <div class="mb-6">
+                    <label class="block text-sm font-medium text-gray-700 mb-2">Subscribe</label>
+                    <div class="flex items-center">
+                        <input type="radio" id="subscribe-yes" name="subscribe" value="yes" class="mr-2">
+                        <label for="subscribe-yes" class="mr-4">Yes</label>
+                        <input type="radio" id="subscribe-no" name="subscribe" value="no" class="mr-2">
+                        <label for="subscribe-no">No</label>
+                    </div>
+                </div>
+
+                <div class="flex items-center mb-6">
+                    <input type="checkbox" id="privacy-policy" class="mr-2">
+                    <label for="privacy-policy" class="text-sm text-gray-700">I have read and agree to the <a href="#"
+                            class="text-blue-500">Privacy Policy</a></label>
+                </div>
+
+                <div class="flex items-center">
+                    <button type="submit" class="bg-black text-white px-4 py-2 rounded shadow">Create</button>
+                </div>
+            </form>
+
+            <div class="mt-6 flex justify-center space-x-4">
+                <button class="bg-blue-600 text-white px-4 py-2 rounded shadow flex items-center">
+                    <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M23.994 12.282C24 11.766 24 11.248 24 10.732v-1.46c0-.415-.002-.829-.006-1.244A10.042 10.042 0 0 0 12 0C5.373 0 0 5.373 0 12c0 6.627 5.373 12 12 12 3.294 0 6.27-1.275 8.493-3.352a.573.573 0 0 0 .113-.287v-3.617c0-.162-.066-.316-.184-.434a.618.618 0 0 0-.438-.181c-1.36.028-2.78.042-4.202.042-1.022 0-2.032-.007-3.022-.02a.617.617 0 0 0-.436.179.617.617 0 0 0-.181.436v1.447c0 .162.066.316.184.434a.618.618 0 0 0 .438.181h2.695v1.84a6.408 6.408 0 0 1-1.808.251c-2.248 0-4.144-1.308-4.966-3.23h2.191a.616.616 0 0 0 .436-.181.617.617 0 0 0 .181-.436V9.763a.617.617 0 0 0-.617-.617H8.905c-.199 0-.393.078-.533.22a.754.754 0 0 0-.191.52c0 .009-.004.018-.004.027v2.091a.617.617 0 0 0 .617.617H12v3.556c0 .162.066.316.184.434a.618.618 0 0 0 .438.181h4.846c.1 0 .198-.02.289-.059a.616.616 0 0 0 .347-.295.576.576 0 0 0 .047-.355 9.967 9.967 0 0 0 .934-4.053c0-.162-.066-.316-.184-.434a.618.618 0 0 0-.438-.181h-3.691v-2.33h4.731v-.002zM8.43 7.05a2.716 2.716 0 1 1 .004-5.432 2.716 2.716 0 0 1-.004 5.432z" />
+                    </svg>
+                    Facebook
+                </button>
+                <button class="bg-red-600 text-white px-4 py-2 rounded shadow flex items-center">
+                    <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M23.51 10.894H22.5V10.5h-7v3h4.17A6.71 6.71 0 0 1 12 19.71 6.71 6.71 0 0 1 5.29 12 6.71 6.71 0 0 1 12 4.29c1.494 0 2.863.51 3.98 1.35l2.12-2.12A10.71 10.71 0 0 0 12 .29C5.67.29 0 5.96 0 12.29c0 6.33 5.67 12 12 12 6.33 0 12-5.67 12-12v-.82z" />
+                    </svg>
+                    Google
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
